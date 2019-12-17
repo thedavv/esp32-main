@@ -16,6 +16,7 @@ Main esp32 code and tutorials
    ![alt text](https://github.com/CyberPunkLabBratislava/esp32-main/blob/master/pictures/ArduinoIDEConf.png)  
 
 **3. Uploading Code to ESP32**  
+
    **A.** Connect ESP to Arduino board:  
       Arduino 5V  -> 5V  ESP  
       Arduino GND -> GND ESP  
@@ -27,16 +28,23 @@ Main esp32 code and tutorials
 
    If the Arduino board don't have removable Microchip(Atmega328P), RST pin needs to be shorted to GND:  
 
-   ![alt text]()  
+   ![alt text](https://github.com/CyberPunkLabBratislava/esp32-main/blob/master/pictures/connectedNonRemovable.png)  
 
-   (If you are using different external programmer (other then Arduino board) pin configuration will be same as on top.) 
+   **(If you are using different external programmer (other then Arduino board) pin configuration will be same as on top.)**  
 
-   **B.** Uploading code:
-      For uploading code just hit **Upload** button in Arduino IDE and code will start to compile. After finishing compiling Arduino IDE will try to upload code to **ESP board**.  
+   **B.** Uploading code:  
+
+      For uploading code just hit **Upload** button in Arduino IDE and code will start to compile. After finishing compiling Arduino   IDE will try to upload code to **ESP board**.  
+
       If the output in console is simillar to this:  
+
    ![alt text](https://github.com/CyberPunkLabBratislava/esp32-main/blob/master/pictures/CodeUpload.png)  
-      Arduino IDE is waiting for reseting of the board, just press Reset on ESP board.:
+
+      Arduino IDE is waiting for reseting of the board, just press Reset on ESP board.:  
+
    ![alt text](https://github.com/CyberPunkLabBratislava/esp32-main/blob/master/pictures/connectedRst.png)  
+
+      After this code should start to upload to ESP board.
 
 
 
