@@ -2,7 +2,8 @@
 Main esp32 code and tutorials
 
 
- **Tutorial:** 
+ **Tutorial:**  
+ 
  **1. Install Arduino IDE:**  
    **A.** Download Arduino IDE from: https://www.arduino.cc/en/main/software    
    **B.** Choose **Windows Installer, for Windows XP and up** for Windows OS.
