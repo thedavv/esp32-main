@@ -3,10 +3,10 @@
 #include <WiFi.h>
 #include "Arduino.h"
 
-const char* ssid = "HUAWEI-ppHw-2G";
-const char* password = "f73VGug3";
+const char* ssid = "ssid";
+const char* password = "pass";
 int capture_interval = 20000; // Microseconds between captures
-const char *post_url = "http://109.230.34.220:55300/api/image"; // Location where images are POSTED
+const char *post_url = "ip"; // Location where images are POSTED
 
 bool internet_connected = false;
 long current_millis;
